@@ -7,6 +7,7 @@
 #header{
     -fx-font-size: 60px;
     -fx-text-fill: #212121;
+    -fx-background-color: #0288D1;
 }
 
 .button
@@ -14,7 +15,22 @@
     -fx-background-color: #FFEB3B;
     -fx-font-size: 20px;
 }
-.chart
-{
-    -fx-background-color: #0000;
+
+.chart-plot-background {
+    -fx-background-color: #B3E5FC;
+}
+.chart-vertical-grid-lines,.chart-horizontal-grid-lines {
+    -fx-stroke: #BDBDBD;
+}
+
+.axis {
+    -fx-tick-label-fill: #000;
+    -fx-font-family: Roboto;
+}
+.axis-tick-mark,.axis-minor-tick-mark {
+    -fx-stroke: #BDBDBD;
+}
+
+.chart-bar {
+    -fx-bar-fill: #0288D1;
 }
