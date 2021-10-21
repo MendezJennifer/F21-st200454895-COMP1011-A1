@@ -17,8 +17,8 @@ public class HelloApplication extends Application {
         stage.setScene(scene);
         stage.show();
 
-        //Image image= new Image("icon.png");
-        //stage.getIcons().add(image);
+        Image image= new Image(getClass().getResource("/img/icon.png").toExternalForm());
+        stage.getIcons().add(image);
     }
 
     public static void main(String[] args) {

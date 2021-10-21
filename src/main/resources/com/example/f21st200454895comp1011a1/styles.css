@@ -14,3 +14,7 @@
     -fx-background-color: #FFEB3B;
     -fx-font-size: 20px;
 }
+.chart
+{
+    -fx-background-color: #0000;
+}
